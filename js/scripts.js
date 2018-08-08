@@ -10,10 +10,10 @@ function triangle(){
 	else if(sideOne === sideTwo || sideTwo === sideThree || sideOne===sideThree){
 	alert("You an isosceles triangle");
 	}
-	else if (sideOne + sideTwo < sideThree || sideTwo +sideThree < sideOne || sideOne + sideThree < sideTwo) {
+	else if ((sideOne + sideTwo) <= sideThree || (sideTwo +sideThree) <= sideOne || (sideOne + sideThree) <= sideTwo) {
 	alert("no triangle formed");
 	}
-	else{
-	alert("you have an scalene triangle");
+	else {
+	alert("scalene triangle");
 	}
 }
