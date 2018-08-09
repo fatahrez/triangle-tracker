@@ -1,21 +1,24 @@
 function triangle(){
-	var sideOne = document.getElementById('sideOne').value;
-	var sideTwo = document.getElementById('sideTwo').value;
-	var sideThree = document.getElementById('sideThree').value;
+	var A/*sideOne*/ = parseInt(document.getElementById('sideOne').value);
+	var B/*sideTwo*/ = parseInt(document.getElementById('sideTwo').value);
+	var C/*sideThree*/ = parseInt(document.getElementById('sideThree').value);
 
-	var sideOneTwo = parseInt(sideOne) + parseInt(sideTwo);
+	var AB = A + B;
+	var AC = A + C;
+	var BC = B + C;
 
-	if(sideOne === sideTwo && sideTwo === sideThree){
+
+	 if ((AB < C) || (AC < B) || (BC < A)) {
+		 alert("no triangle formed");
+	}
+	else if(A === B && B === C){
 		alert("You have an equilateral triangle");
 	}
-	else if(sideOne === sideTwo || sideTwo === sideThree || sideOne===sideThree){
-	alert("You an isosceles triangle");
-	}
-	else if ((sideOne + sideTwo) <= sideThree || (sideTwo +sideThree) <= sideOne || (sideOne + sideThree) <= sideTwo) {
-	alert("no triangle formed");
+
+	else if(A === B || B === C || A===C){
+		alert("You an isosceles triangle");
 	}
 	else {
-	alert("scalene triangle");
+		alert("scalene triangle");
 	}
 }
-alert(sideOneTwo);
