@@ -3,7 +3,7 @@
 #### By **Abdulfatah Mohamed**
 ![ReadmeImg](https://upload.wikimedia.org/wikipedia/commons/f/fc/Triangle_model_of_love.png "Optional title")
 ## Description
-This is application is called Triangle-Tracker. The page contains three input forms which enable someone to input the length(in Cm) of the three different sides of triangle. It tells the user the type of triangle which will be formed from the three input by the user or if no triangle will be formed. The application uses a function of if else statement and has a button which which executes the function upon being clicked to make the application logic possible.    
+This application is called Triangle-Tracker. The page contains three input forms which enable someone to input the length(in Cm) of the three different sides of triangle. It tells the user the type of triangle which will be formed from the three input by the user or if no triangle will be formed. The application uses a function of if else statement and has a button which which executes the function upon being clicked to make the application logic possible.    
 ## Setup/Installation Requirements
 * Make sure your computer has an editor you can use atom(preferred), sublime text or notepad++
 * Make sure your browser is Javascript enabled. Preferably use Chrome or Mozilla Firefox. 
