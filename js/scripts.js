@@ -1,7 +1,7 @@
 function triangle(){
-	var A/*sideOne*/ = parseFloat(document.getElementById('sideOne').value);
-	var B/*sideTwo*/ = parseFloat(document.getElementById('sideTwo').value);
-	var C/*sideThree*/ = parseFloat(document.getElementById('sideThree').value);
+	var A = parseFloat(document.getElementById('sideOne').value);
+	var B = parseFloat(document.getElementById('sideTwo').value);
+	var C = parseFloat(document.getElementById('sideThree').value);
 
 	var AB = A + B;
 	var AC = A + C;
