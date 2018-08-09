@@ -1,8 +1,9 @@
 function triangle(){
-	var sideOne = document.getElementById('sideOne').value;//parseFloat(prompt("enter length of the first side of triangle"));
-	var sideTwo = document.getElementById('sideTwo').value;//parseFloat(prompt("enter length of the second side of triangle"));
-	var sideThree = document.getElementById('sideThree').value;//parseFloat(prompt("enter length of the third side of triangle"));
+	var sideOne = document.getElementById('sideOne').value;
+	var sideTwo = document.getElementById('sideTwo').value;
+	var sideThree = document.getElementById('sideThree').value;
 
+	var sideOneTwo = parseInt(sideOne) + parseInt(sideTwo);
 
 	if(sideOne === sideTwo && sideTwo === sideThree){
 		alert("You have an equilateral triangle");
@@ -17,3 +18,4 @@ function triangle(){
 	alert("scalene triangle");
 	}
 }
+alert(sideOneTwo);
