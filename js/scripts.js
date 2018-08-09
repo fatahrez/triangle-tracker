@@ -1,7 +1,7 @@
 function triangle(){
-	var A/*sideOne*/ = parseInt(document.getElementById('sideOne').value);
-	var B/*sideTwo*/ = parseInt(document.getElementById('sideTwo').value);
-	var C/*sideThree*/ = parseInt(document.getElementById('sideThree').value);
+	var A/*sideOne*/ = parseFloat(document.getElementById('sideOne').value);
+	var B/*sideTwo*/ = parseFloat(document.getElementById('sideTwo').value);
+	var C/*sideThree*/ = parseFloat(document.getElementById('sideThree').value);
 
 	var AB = A + B;
 	var AC = A + C;
@@ -9,16 +9,16 @@ function triangle(){
 
 
 	 if ((AB < C) || (AC < B) || (BC < A)) {
-		 alert("no triangle formed");
+		 alert("There is no triangle formed");
 	}
 	else if(A === B && B === C){
 		alert("You have an equilateral triangle");
 	}
 
 	else if(A === B || B === C || A===C){
-		alert("You an isosceles triangle");
+		alert("You have an isosceles triangle");
 	}
 	else {
-		alert("scalene triangle");
+		alert("Scalene triangle formed");
 	}
 }
