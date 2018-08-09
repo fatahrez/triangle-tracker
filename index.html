@@ -2,17 +2,18 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
     <title>Triangle tracker</title>
   </head>
   <body>
     <h1>Let's determine a triangle</h1>
     <script src="js/scripts.js"></script>
     <p>enter the first dimension of the triangle</p>
-    <input id="sideOne">
+    <input id="sideOne" placeholder="Enter value of the first side" onfocus="placeholder=''" onblur="placeholder='Enter value of the first side'">
     <p>enter the second dimension of the triangle</p>
-    <input id="sideTwo">
+    <input id="sideTwo" placeholder="Enter value of the second side" onfocus="placeholder=''" onblur="placeholder='Enter value of the first side'">
     <p>enter the second dimension of the triangle</p>
-    <input id="sideThree">
+    <input id="sideThree" placeholder="Enter value of the last side" onfocus="placeholder=''" onblur="placeholder='Enter value of the first side'">
     <br>
     <button type="button" onclick="triangle()">submit</button>
   </body>
