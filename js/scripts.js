@@ -1,3 +1,4 @@
+
 function triangle(){
 	/*Get users input from index.html and save as variables*/
 	var A = parseFloat(document.getElementById('sideOne').value);
@@ -20,7 +21,10 @@ function triangle(){
 	else if(A === B || B === C || A===C){
 		alert("You have an isosceles triangle");
 	}
-	else {
+	else if((AB > C) || (AC > B) || (BC > A)){
 		alert("Scalene triangle formed");
+	}
+	else {
+		alert("try again");
 	}
 }
