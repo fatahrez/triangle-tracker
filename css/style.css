@@ -1,6 +1,13 @@
+body{
+background-image: url(../images/anotherimg.png);
+height: 700px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
 div{
   border-radius: 5px;
-  background-color: #f3f3f3;
   padding: 20px;
   text-align: center;
 }
