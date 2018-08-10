@@ -32,6 +32,8 @@ button{
 }
 button:hover{
   background-color: grey;
+  padding: 10px;
+  margin: 5px;
 }
 p{
   font-style: italic;

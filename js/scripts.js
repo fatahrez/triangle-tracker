@@ -28,3 +28,9 @@ function triangle(){
 		alert("try again");
 	}
 }
+var displayWord = function(words){
+var words = ["Refresh page" , "to see more"];
+words.forEach(function(word){
+	alert(word);
+});
+}
