@@ -1,4 +1,5 @@
 function triangle(){
+	/*Get users input from index.html and save as variables*/
 	var A = parseFloat(document.getElementById('sideOne').value);
 	var B = parseFloat(document.getElementById('sideTwo').value);
 	var C = parseFloat(document.getElementById('sideThree').value);
