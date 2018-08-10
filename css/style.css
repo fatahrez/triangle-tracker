@@ -26,3 +26,7 @@ button{
 button:hover{
   background-color: grey;
 }
+p{
+  font-style: italic;
+  font-family: fantasy;
+}
